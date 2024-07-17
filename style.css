@@ -1,0 +1,161 @@
+body{
+    background-color: antiquewhite;
+    overflow-x: scroll;
+}
+
+
+.header-div{
+    width: 100%;
+    height: 80px;
+    background-color: coral;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    box-shadow: 0px 2px 1px #333;
+    flex-direction: row;
+    
+    .logo-button{
+        position: relative;
+        object-fit: contain;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        .button-design{
+            background-color: transparent;
+            gap: 10px;
+        }
+        ul{
+            list-style: none;
+            flex-direction: row;
+            display: flex;
+            background-color: transparent;
+            align-items: center;
+            align-self: center;
+            justify-content: center;
+            .logo-image{
+                width: 50px; 
+                height: 50px; 
+                position: relative;
+                object-fit: contain;
+            }
+            .blog {
+                background-color: transparent;
+                font-size: 150%;
+            }
+        }
+    }   
+}
+.sign-in-div {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    .sign-in-button {
+        cursor: pointer;
+        position: relative; 
+        display: inline-block;
+        margin-right: 100px;
+        left: 95%;
+        top: 20px;
+        border: none;
+        background-color: transparent;
+    }
+    .button-text {
+        text-align: left;
+        font-size: larger;
+    }
+}
+.hero--header{
+    margin-top: 300px;
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .backgroung{
+    width: fit-content;
+  }
+  .create-blog{
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 35px 10px 35px ;
+    font-size: medium;
+    background-color: coral;
+    box-shadow: 1px 3px 3px #333;
+    top: 10px;
+}
+
+
+
+.perfect-design{
+    width: 100%;
+    height: 1080px;
+    background-color: #da851e;
+    top: 1080px;
+    right: 0%;
+    position: absolute;
+}
+.domain {
+    width: 100%;
+    height: 1080px;
+    background-color: rgb(217, 58, 58);
+    top: 2160px;
+    right: 0%;
+    position: absolute;
+}
+.earn-money {
+    width: 100%;
+    height: 1080px;
+    background-color: aqua;
+    top: 3240px;
+    right: 0%;
+    position: absolute;
+}
+.know-audience {
+    width: 100%;
+    height: 5px;
+    background-color: grey;
+    top: 4320px;
+    right: 0%;
+    position: absolute;
+}
+.memories {
+    width: 100%;
+    height: 1080px;
+    background-color: crimson;
+    top: 5400px;
+    right: 0%;
+    position: absolute;
+}
+.join-millions {
+    width: 100%;
+    height: 600px;
+    background-color: #da851e;
+    top: 6480px;
+    right: 0%;
+    position: absolute;
+}
+.footer {
+    width: 100%;
+    background-color: rgb(0, 62, 128);
+    top: 7080px;
+    position: absolute;
+    right: 0%;
+    height: 480px;
+    flex-direction: row;
+    .footer-content {
+        display: flex;
+    }
+    .footer-link {
+        flex-direction: row;
+    }
+    .li {
+        flex-direction: row;
+    }
+    .logo-footer {
+        height: 150px;
+    }
+}
